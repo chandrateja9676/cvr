@@ -1,0 +1,130 @@
+/* src/LearnMore.css */
+.learn-more-container {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #00793c;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.learn-more-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00793c;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #d0e8d8;
+}
+
+.learn-more-main {
+    padding: 100px 20px 20px; /* Add top padding to account for fixed header */
+    text-align: left;
+    flex: 1;
+}
+
+.learn-more-main h1 {
+    font-size: 36px;
+    color: #00793c;
+    margin-bottom: 20px;
+}
+
+.learn-more-content h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #00793c;
+}
+
+.learn-more-content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    margin-top: 10px;
+}
+
+.testimonials {
+    margin-top: 20px;
+}
+
+.testimonial {
+    background-color: #ffffff;
+    border-left: 5px solid #00793c;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.testimonial p {
+    font-style: italic;
+}
+
+.testimonial cite {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #00793c;
+}
+
+.case-studies {
+    margin-top: 20px;
+}
+
+.case-study {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.case-study h3 {
+    font-size: 20px;
+    color: #00793c;
+}
+
+.case-study p {
+    font-size: 16px;
+    color: #555;
+}
+
+.learn-more-footer {
+    background-color: #00793c;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
