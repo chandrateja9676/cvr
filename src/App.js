@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { WavyContainer, WavyLink } from 'react-wavy-transitions';
+//import { WavyContainer, WavyLink } from 'react-wavy-transitions';
 import Welcome from './pages/Welcome';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
@@ -19,7 +19,6 @@ const NoMatch = () => <div>No Match</div>;
 function App() {
     return (
         <Router>
-           <WavyContainer />
             <Routes>
                 <Route path="/" element={<Welcome />} />
                 <Route path="/Services" element={<Services />} />
